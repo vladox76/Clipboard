@@ -12,6 +12,10 @@ html{
     --grayish-blue:hsl(201, 11%, 66%);
 }
 
+*::selection{
+    background-color: hsla(171, 66%, 44%, 0.425);
+}
+
 img{
     width: 10px;
 }
@@ -26,19 +30,17 @@ img{
     font-size: 1.5rem;
 }
 
-.titulo-general{
-
-}
-
 .boton{
-    width: 100%;
-    max-width: 336px;
+    width: 80%;
+    max-width: 240px;
+    text-align: center;
     border-radius: 1.5rem;
     padding:0.7rem 0 0.7rem;
     border-color: transparent;
     font-size: 1rem;
     color: white;
     background-color: black;
+    text-decoration: none;
 }
 
 .boton--azul-turquesa{
@@ -46,14 +48,26 @@ img{
     box-shadow: 1px 2px 1px hsl(171, 63%, 38%);
 }
 
-.boton--azul-turquesa :hover{
+.boton--azul-turquesa:hover{
     background-color: hsl(171, 55%, 62%);
+    cursor: pointer;
+}
+
+.boton--azul-turquesa:active, .boton--morado:active{
+    position: relative;
+    top: 3px;
+    box-shadow: none;
 }
 
 .boton--morado{
     background-color: var(--light-blue);
     box-shadow: 1px 2px 1px hsl(233, 55%, 55%);
 }
+
+.boton--morado:hover{
+    background-color: hsl(233, 100%, 81%);
+}
+
 
 .section-1{
     display: flex;
