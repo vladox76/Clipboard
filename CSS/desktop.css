@@ -1,0 +1,12 @@
+.section-1__botones{
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section-1__botones__boton-ios{
+    margin-right: 6px;
+}
+
+.section-1__botones__boton-mac{
+    margin-left: 6px;
+}
