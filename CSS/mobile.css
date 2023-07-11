@@ -203,7 +203,7 @@ img{
     flex-direction: column;
     width: 80%;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
     text-align: center;
 }
 
@@ -239,4 +239,19 @@ img{
 
 .section-4__items__item-texto{
     margin: 0 auto;
+}
+
+.section-5{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.section-5__logo{
+    width: 50%;
+    max-width: 130px;
+    margin-bottom: 50px;
 }

@@ -9,3 +9,13 @@
 .section-4__items{
     margin-bottom: 10px;
 }
+
+.section-5{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-5__logo{
+    margin: 0 30px 50px 30px;
+}
