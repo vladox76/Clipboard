@@ -217,10 +217,12 @@ img{
 
 .section-4__items{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .section-4__items__item{
+    max-width: 260px;
     flex-grow: 1;
     margin-bottom: 50px;
 }
@@ -237,5 +239,4 @@ img{
 
 .section-4__items__item-texto{
     margin: 0 auto;
-    max-width: 526px;
 }

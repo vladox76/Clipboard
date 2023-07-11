@@ -31,3 +31,11 @@
     position: relative;
     transform: translate(75%, 10%);
 }
+
+.section-4{
+    width: 100%;
+}
+
+.section-4__items__item{
+    margin: 0 25px 0 25px;
+}
