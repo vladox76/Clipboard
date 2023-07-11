@@ -1,0 +1,8 @@
+.section-2__contenedor-elmentos__imagen{
+    transform: translateX(-80%);
+}
+
+.section-2__contenedor-elementos__atributos{
+    position: relative;
+    transform: translate(10%, 10%);
+}

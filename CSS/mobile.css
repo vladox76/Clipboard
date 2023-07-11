@@ -124,13 +124,17 @@ img{
  margin-bottom: 160px;
 }
 
+.section-2__info__titulo{
+    margin-bottom: 20px;
+}
+
 .section-2__info{
     width: 80%;
     text-align: center;
     margin-bottom: 50px;
 }
 
-.section-2__info__titulo{
+.section-2__contenedor-elementos__atributos__item__titulo{
     margin-bottom: 20px;
 }
 

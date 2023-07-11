@@ -10,3 +10,24 @@
 .section-1__botones__boton-mac{
     margin-left: 6px;
 }
+
+.section-2{
+    margin-bottom: 300px;
+}
+
+.section-2__contenedor-elementos__atributos__item__titulo, 
+.section-2__contenedor-elementos__atributos__item__texto{
+    text-align: left;
+}
+
+.section-2__contenedor-elmentos__imagen{
+    width: 65%;
+    max-width: 800px;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.section-2__contenedor-elementos__atributos{
+    position: relative;
+    transform: translate(75%, 10%);
+}
