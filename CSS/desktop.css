@@ -1,13 +1,15 @@
-.section-1__botones{
+.section-1__botones, .section-6__botones{
     flex-direction: row;
     justify-content: center;
 }
 
-.section-1__botones__boton-ios{
+.section-1__botones__boton-ios,
+.section-6__botones__boton-ios {
     margin-right: 6px;
 }
 
-.section-1__botones__boton-mac{
+.section-1__botones__boton-mac,
+.section-6__botones__boton-ios {
     margin-left: 6px;
 }
 
@@ -42,4 +44,31 @@
 
 .section-5{
     width: 100%;
+}
+
+.footer{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer__logo{
+    margin-left: 130px;
+}
+
+.footer__opciones{
+    max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.footer__opciones__grupo{
+    text-align: left;
+}
+
+.footer__redes-sociales{
+    width: 20%;
+    margin-right: 130px;
 }

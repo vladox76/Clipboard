@@ -77,6 +77,7 @@ img{
 
 .boton--morado:hover{
     background-color: hsl(233, 100%, 81%);
+    cursor: pointer;
 }
 
 
@@ -95,7 +96,7 @@ img{
 }
 
 .section-1__info{
-    width: 80%;
+    width: 90%;
     max-width: 382px;
     text-align: center;
 }
@@ -111,15 +112,17 @@ img{
     margin-bottom: 30px;
 }
 
-.section-1__botones{
-    width: 80%;
+.section-1__botones, .section-6__botones{
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 120px;
 }
 
-.section-1__botones__boton-ios, .section-1__botones__boton-mac{
+.section-1__botones__boton-ios, .section-1__botones__boton-mac,
+.section-6__botones__boton-ios, .section-6__botones__boton-mac
+{
     margin-bottom: 1.5rem;
 }
 
@@ -254,4 +257,55 @@ img{
     width: 50%;
     max-width: 130px;
     margin-bottom: 50px;
+}
+
+.section-6{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-6__info{
+    max-width: 500px;
+    margin-bottom: 50px;
+}
+
+.section-6__info__titulo{
+    margin-bottom: 20px;
+}
+
+.section-6__botones{
+    margin-bottom: 100px;
+}
+
+.section-6__botones__boton-ios, .section-6__botones__boton-mac{
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: hsla(202, 11%, 66%, 0.123);
+}
+
+.footer__logo{
+    width: 15%;
+    max-width: 55px;
+    margin: 30px 50px;
+}
+
+.footer__opciones__item{
+    margin: 20px 40px;
+    color: var(--dark-grayish-blue);
+}
+
+.footer__redes-sociales__item{
+    width: 20px;
+    margin: 10px 10px 30px 10px;
 }
