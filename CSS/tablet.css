@@ -1,3 +1,10 @@
 .section-1{
     background-image: url(../assets/images/bg-header-desktop.png);
 }
+
+.section-2__info{
+    max-width: 625px;
+}
+
+.section-2__contenedor-elementos__atributos{
+}

@@ -136,10 +136,15 @@ img{
 
 .section-2__contenedor-elementos{
     width: 80%;
+    max-width: 625px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+}
+
+.section-2__contenedor-elementos__atributos{
+    max-width: 371px;
 }
 
 .section-2__contenedor-elementos__atributos__item__titulo{
@@ -147,7 +152,7 @@ img{
 }
 
 .section-2__contenedor-elementos__atributos__item__texto{
-    margin-bottom: 30px;
+    margin-bottom: 3.5rem;
 }
 
 .section-2__contenedor-elmentos__imagen{
